@@ -5,6 +5,48 @@ package circulo;
  * @author Andrea Gutierrez Torres
  */
 public class Aro {
+
+    /**
+     * @return the coordenadaX
+     */
+    public int getCoordenadaX() {
+        return coordenadaX;
+    }
+
+    /**
+     * @return the coordenadaY
+     */
+    public int getCoordenadaY() {
+        return coordenadaY;
+    }
+
+    /**
+     * @return the radio
+     */
+    public double getRadio() {
+        return radio;
+    }
+
+    /**
+     * @param coordenadaX the coordenadaX to set
+     */
+    public void setCoordenadaX(int coordenadaX) {
+        this.coordenadaX = coordenadaX;
+    }
+
+    /**
+     * @param coordenadaY the coordenadaY to set
+     */
+    public void setCoordenadaY(int coordenadaY) {
+        this.coordenadaY = coordenadaY;
+    }
+
+    /**
+     * @param radio the radio to set
+     */
+    public void setRadio(double radio) {
+        this.radio = radio;
+    }
     public static final double MINIMO = 0.0;
 
     private int coordenadaX;
