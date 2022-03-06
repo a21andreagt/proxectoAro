@@ -1,5 +1,5 @@
 /**
- * Probas para a clase Circulo
+ * Probas para a clase Aro
  * @author Andrea Gutierrez Torres
  */
 package circulo;
@@ -13,7 +13,7 @@ import static org.junit.jupiter.api.Assertions.*;
 
 /**
  *
- * @author profesor
+ * @author Andrea Gutierrez Torres
  */
 public class AroTest {
     
@@ -121,14 +121,14 @@ public class AroTest {
     }
 
     /**
-     * Test of obterArea method, of class Aro.
+     * Test of obterSuperficie method, of class Aro.
      */
     @Test
-    public void testObterArea() {
+    public void testObterSuperficie() {
         System.out.println("obterArea");
         Aro instance = new Aro(0,0,0.1);
         double expResult = 0.0314159;
-        double result = instance.obterArea();
+        double result = instance.obterSuperficie();
         assertEquals(expResult, result,1e-6);
     }
 
